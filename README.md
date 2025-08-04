@@ -21,11 +21,11 @@ nmap -sn 192.168.88.0/24
 Once the active hosts were identified, a full TCP scan was performed:
 nmap -sS 192.168.88.0/24
 
--sS = Performs a stealthy scan by sending SYN packets to detect open ports. To find which TCP ports are open, without completing the TCP handshake
+-sS = Performs a stealthy scan by sending SYN packets to detect open ports. To find which TCP ports are open, without completing the TCP handshake.
 
 Conclusion:
 This exercise helped us understand:
 
 The use of Nmap for active host and port discovery
 Identifying services and understanding their function
-Evaluating basic network security risks
+Evaluating basic network security risks.
